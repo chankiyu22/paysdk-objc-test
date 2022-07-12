@@ -6,6 +6,6 @@ target 'paysdk-objc-test' do
   use_frameworks!
 
   # Pods for paysdk-objc-test
-  pod 'AP_PaySDK', '2.6.02'
+  pod 'AP_PaySDK', '2.6.03'
 
 end

@@ -6,6 +6,7 @@ target 'paysdk-objc-test' do
   use_frameworks!
 
   # Pods for paysdk-objc-test
-  pod 'AP_PaySDK', '2.6.14'
+  pod 'AP_PaySDK', '2.6.06'
 
+  pod 'FBRetainCycleDetector', { :git => 'https://github.com/MustangYM/FBRetainCycleDetector.git', :commit => 'b558f67' }
 end
